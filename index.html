@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>jQuery</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Galeria de fotos</h1>
+      <button type="button">Nova Imagem +</button>
+    </header>
+    <form>
+      <h2>Inserir nova imagem</h2>
+      <input
+        type="url"
+        id="endereco-imagem-nova"
+        required
+        placeholder="URL da Imagem"
+      />
+      <button type="submit">Adicionar</button>
+      <button id="botao-cancelar" type="reset">Cancelar</button>
+    </form>
+    <ul>
+      <li>
+        <img src="imagens/gato.jpeg" alt="imagem de um gato" />
+        <div class="overlay-imagem-link">
+          <a
+            href="imagens/gato.jpeg"
+            title=" Ver imagem em tamanho real"
+            target="_blank"
+          >
+            Ver imagem em tamanho real
+          </a>
+        </div>
+      </li>
+      <li>
+        <img src="imagens/borboleta.jpeg" alt="imagem de uma borboleta" />
+        <div class="overlay-imagem-link">
+          <a
+            href="imagens/borboleta.jpeg"
+            title=" Ver imagem em tamanho real"
+            target="_blank"
+          >
+            Ver imagem em tamanho real
+          </a>
+        </div>
+      </li>
+      <li>
+        <img src="imagens/céu.jpg" alt="imagem do céu" />
+        <div class="overlay-imagem-link">
+          <a
+            href="imagens/céu.jpg"
+            title=" Ver imagem em tamanho real"
+            target="_blank"
+          >
+            Ver imagem em tamanho real
+          </a>
+        </div>
+      </li>
+      <li>
+        <img src="imagens/lavanda.jpeg" alt="imagem de um campo de lavanda" />
+        <div class="overlay-imagem-link">
+          <a
+            href="imagens/lavanda.jpeg"
+            title=" Ver imagem em tamanho real"
+            target="_blank"
+          >
+            Ver imagem em tamanho real
+          </a>
+        </div>
+      </li>
+      <li>
+        <img src="imagens/paisagem.jpeg" alt="imagem de uma paisagem" />
+        <div class="overlay-imagem-link">
+          <a
+            href="imagens/paisagem.jpeg"
+            title=" Ver imagem em tamanho real"
+            target="_blank"
+          >
+            Ver imagem em tamanho real
+          </a>
+        </div>
+      </li>
+    </ul>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
